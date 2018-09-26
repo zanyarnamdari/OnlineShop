@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">مداوا گستر</string>
+    <string name="brand">برند</string>
+    <string name="product">محصولات</string>
+    <string name="sabad">سبد خرید</string>
+    <string name="jost">جستجو محصول </string>
+    <string name="list">لیست خرید ها </string>
+    <string name="kharid">ثبت خرید </string>
+    <string name="offline">    ارتباط با اینترنت غیر فعال می باشد لطفا مجددا برنامه را راه اندازی کنید
+ </string>
+    <string name="ramz2"> رمز عبور  </string>
+
+    <string name="list2">محصولات ویژه </string>
+
+    <string name="tozihat"> توضیحات  </string>
+
+    <string name="national">  کد ملی  </string>
+
+
+    <string name="pro">پروفایل  </string>
+    <string name="modava">    مداوا گستر آبیدر
+  </string>
+
+    <string name="search">  جستجو  </string>
+
+    <string name="mahsol">      محصول مورد نظر
+  </string>
+
+
+    <string name="takhfifat">  تخفیفات :  </string>
+    <string name="joziat">  جزییات خرید :  </string>
+
+
+    <string name="sabt">      ثبت توضیحات
+  </string>
+
+
+    <string name="ramz">  تغییر رمز عبور  </string>
+    <string name="ramz3">  رمز عبور جدید  </string>
+
+    <string name="raya">     رایا گروپ
+ </string>
+    رمز عبور
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_logout">خروج</string>
+    <string name="title_activity_login"> ورود </string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">کد ملی</string>
+    <string name="prompt_password">رمز عبور</string>
+    <string name="action_sign_in">ورود</string>
+    <string name="action_sign_in_short">ورود</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_splash2">ActivitySplash2</string>
+</resources>

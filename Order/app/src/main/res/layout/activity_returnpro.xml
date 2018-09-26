@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myCrad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_horizontal_margin2"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin2"
+    android:layout_marginRight="@dimen/activity_horizontal_margin2"
+    android:layout_marginStart="@dimen/activity_horizontal_margin2"
+    android:layout_marginTop="5dp"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:weightSum="50">
+
+        <TextView
+            android:id="@+id/tedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/plas"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/iran_sans_ultra_light_web"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitle2" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textViewTitle2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/iran_sans_ultra_light_web"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewRecycler" />
+
+        <ImageView
+            android:id="@+id/imageViewRecycler"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/number_picker_default"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <Button
+            android:id="@+id/mines"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/mines"
+            android:fontFamily="@font/iran_sans_ultra_light_web"
+            android:theme="@style/MyButton2"
+            app:layout_constraintBottom_toBottomOf="@+id/number_picker_default"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/number_picker_default" />
+
+        <Button
+            android:id="@+id/plas"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/plas"
+            android:fontFamily="@font/iran_sans_ultra_light_web"
+            android:theme="@style/MyButton2"
+            app:layout_constraintBottom_toBottomOf="@+id/number_picker_default"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/number_picker_default" />
+
+        <TextView
+            android:id="@+id/textViewTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textViewPrice1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/iran_sans_ultra_light_web"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewPrice1" />
+
+        <com.travijuu.numberpicker.library.NumberPicker
+            android:id="@+id/number_picker_default"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/textViewTitle"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+
+
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/mines"
+            app:layout_constraintStart_toEndOf="@+id/plas"
+            app:layout_constraintTop_toBottomOf="@+id/tedad"
+            app:layout_constraintVertical_bias="0.186">
+
+        </com.travijuu.numberpicker.library.NumberPicker>
+
+        <TextView
+            android:id="@+id/textViewPrice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/plas"
+            android:layout_alignBottom="@+id/plas"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/iran_sans_ultra_light_web"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+        <Button
+            android:id="@+id/plas2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_above="@+id/plas"
+            android:layout_alignLeft="@+id/plas"
+            android:layout_alignStart="@+id/plas"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/takhfifat"
+            android:fontFamily="@font/iran_sans_ultra_light_web"
+            android:theme="@style/MyButton2"
+            app:layout_constraintStart_toStartOf="@+id/plas"
+            app:layout_constraintTop_toTopOf="@+id/imageViewRecycler" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:indicatorColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.804" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
+
